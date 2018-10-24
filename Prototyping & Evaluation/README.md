@@ -139,11 +139,11 @@ so I could see the average for the first location is different from the next loc
 Due to it's distance between 2 locations
 
 - Resource : 
-
+```sh
 The website to find the location of particular ip:
 
 https://tools.keycdn.com/geo
-
+```
 
 ![alt text](https://user-images.githubusercontent.com/20173643/47400980-b8509380-d73f-11e8-8a8d-d4d6af6f7708.PNG)
 ![alt text](https://user-images.githubusercontent.com/20173643/47400983-bb4b8400-d73f-11e8-8090-a5feef6dcaf4.PNG)
