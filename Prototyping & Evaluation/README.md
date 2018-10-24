@@ -141,8 +141,11 @@ Due to it's distance between 2 locations
 - Resource : 
 ```sh
 The website to find the location of particular ip:
- [tools.keycdn.com/geo](https://tools.keycdn.com/geo)
+ ```
+ 
+ https://tools.keycdn.com/geo
 
+```sh
 ```
 
 ![alt text](https://user-images.githubusercontent.com/20173643/47400980-b8509380-d73f-11e8-8a8d-d4d6af6f7708.PNG)
@@ -154,10 +157,12 @@ The website to find the location of particular ip:
 
 The website to calculate the distance from server location, which is found from the website mentioned before :
 
+```
 https://www.distancecalculator.net/
 
-```
 
+```sh
+```
 ![alt text](https://user-images.githubusercontent.com/20173643/47400988-be467480-d73f-11e8-8741-fbbc9ce0d1fd.PNG)
 ![alt text](https://user-images.githubusercontent.com/20173643/47400989-bf77a180-d73f-11e8-84b4-c5210abd82f3.PNG)
 ![alt text](https://user-images.githubusercontent.com/20173643/47400990-c1416500-d73f-11e8-861a-6c7660581a35.PNG)
