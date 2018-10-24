@@ -107,8 +107,11 @@ Ping statistics for 128.199.144.199:
 Approximate round trip times in milli-seconds:
     Minimum = 345ms, Maximum = 348ms, Average = 347ms
  ```   
-    
-    
+ 
+ # ping to particular ip
+ 
+This commandos are used for pinging:
+  
 - ping 128.199.144.199 >> singaphour.txt
 - ping 46.101.253.149 >> germany.txt
 - ping 167.99.51.33 >> usa.txt
