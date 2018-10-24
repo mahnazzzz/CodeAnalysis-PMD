@@ -1,27 +1,48 @@
-# CodeAnalysis-PMD
+# Exercise on Benchmarking
 
-# Url for code
+# Url for the exercise
 
-https://github.com/jcrygier/graphql-jpa
+https://datsoftlyngby.github.io/soft2018fall/UFO/03-Prototyping_and_Evaluation.html
 
-# Use of pmd provides these options:
+# The task
 
-- checks all the code and shows where exactly the error is and that it will show and it will even give an example
-why is it showing an error how can you resolve them so this is a this!
+There are tre digital ocean droplets that are all set up to respond to ping:
+- 128.199.144.199
+- 167.99.51.33
+- 46.101.253.149
 
-# problem
-
-I could not run pmd on netbeans. so I have download easypmd plugin. 
-
-For it to work, I maked sure about 3 conditions are there.
--  action items windows is visible
--  scanning scope in the left part of that window is selected.
--  check that the filter button is not impressed state
+The task is to plan, setup, execute, and evaluate a small experiment concerning these three servers. 
+In particluar you have to:
 
 
-but I still could not make it work.
+- Formulate a hypothesis/problem statement about behavior of ping times of these three servers.
+- Plan an experiment, which measures response times of these three servers.
+- Execute the experiment, which measures response times of these three servers.
+- Evaluate your experiment and interpret the measurements and results.
+- Discuss what you are measuring, how you are measuring, and what could influence your results.
 
-# in yek readme boood
+# Finding location
+
+
+# Behavior of ping times of these three servers
+
+- ping 128.199.144.199 >> singaphour.txt
+- ping 46.101.253.149 >> germany.txt
+- ping 167.99.51.33 >> usa.txt
+
+
+# Measures response times of these three servers
+
+First I have found where this ip belong to and so found the distance between my location to the places where ip locations are. 
+So I've pinged from 2 different loction to the 3 ip addresses.
+
+so I could see the average for the first location is different from the next loction. 
+Due to it's distance between 2 locations
+
+
+
+
+
 
 
 
