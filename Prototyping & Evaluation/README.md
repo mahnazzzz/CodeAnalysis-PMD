@@ -141,8 +141,8 @@ Due to it's distance between 2 locations
 - Resource : 
 ```sh
 The website to find the location of particular ip:
+ [tools.keycdn.com/geo](https://tools.keycdn.com/geo)
 
-https://tools.keycdn.com/geo
 ```
 
 ![alt text](https://user-images.githubusercontent.com/20173643/47400980-b8509380-d73f-11e8-8a8d-d4d6af6f7708.PNG)
