@@ -140,6 +140,11 @@ So I've pinged from 2 different loction to the 3 ip addresses.
 so I could see the average for the first location is different from the next loction. 
 Due to it's distance between 2 locations
 
+# Resource : 
+
+https://www.distancecalculator.net/
+
+
 ![alt text](https://user-images.githubusercontent.com/20173643/47399047-20e74280-d737-11e8-88cf-f5e293f77c08.PNG)
 
 
