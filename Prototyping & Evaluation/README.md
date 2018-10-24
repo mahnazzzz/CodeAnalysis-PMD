@@ -134,7 +134,7 @@ Approximate round trip times in milli-seconds:
 
 # Measures response times of these three servers
 
-First I have found where this ip belong to and so found the distance between my location to the places where ip locations are. 
+First I have found where this ip belong to and also the distance between my location to the places where ip locations are. 
 So I've pinged from 2 different loction to the 3 ip addresses.
 
 so I could see the average for the first location is different from the next loction. 
@@ -142,10 +142,17 @@ Due to it's distance between 2 locations
 
 # Resource : 
 
+The website to find the location of particular ip:
+
+https://tools.keycdn.com/geo
+
+The website to calculate the distance from server location, which is found from the website mentioned before :
+
 https://www.distancecalculator.net/
 
-
 ![alt text](https://user-images.githubusercontent.com/20173643/47399047-20e74280-d737-11e8-88cf-f5e293f77c08.PNG)
+![alt text]()
+![alt text]()
 
 
 
