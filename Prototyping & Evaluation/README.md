@@ -21,8 +21,6 @@ In particluar you have to:
 - Evaluate your experiment and interpret the measurements and results.
 - Discuss what you are measuring, how you are measuring, and what could influence your results.
 
-# Finding location
-
 
 # Behavior of ping times of these three servers
 
@@ -30,7 +28,7 @@ The response time is depend on distance between server and request point (client
 
 # Expriment has done through the following approach: 
 
-Response time and distance to server has been measured in a paticular location. Experiment has reapetet in another particular location. Comparing the distances to several servers and also compare the data which are provided from to particular location, shows the response time clearly.
+Response time and distance to server has been measured in a paticular location. Experiment has repeatet in another particular location. Comparing the distances to several servers and also compare the data which are provided from to particular location, shows the response time clearly.
 
 ```sh
 
@@ -140,20 +138,24 @@ So I've pinged from 2 different loction to the 3 ip addresses.
 so I could see the average for the first location is different from the next loction. 
 Due to it's distance between 2 locations
 
-# Resource : 
+- Resource : 
 
 The website to find the location of particular ip:
 
 https://tools.keycdn.com/geo
+
 
 The website to calculate the distance from server location, which is found from the website mentioned before :
 
 https://www.distancecalculator.net/
 
 ![alt text](https://user-images.githubusercontent.com/20173643/47399047-20e74280-d737-11e8-88cf-f5e293f77c08.PNG)
-![alt text]()
-![alt text]()
-
+![alt text](https://user-images.githubusercontent.com/20173643/47400980-b8509380-d73f-11e8-8a8d-d4d6af6f7708.PNG)
+![alt text](https://user-images.githubusercontent.com/20173643/47400983-bb4b8400-d73f-11e8-8090-a5feef6dcaf4.PNG)
+![alt text](https://user-images.githubusercontent.com/20173643/47400986-bc7cb100-d73f-11e8-9ef3-be26e5e4842b.PNG)
+![alt text](https://user-images.githubusercontent.com/20173643/47400988-be467480-d73f-11e8-8741-fbbc9ce0d1fd.PNG)
+![alt text](https://user-images.githubusercontent.com/20173643/47400989-bf77a180-d73f-11e8-84b4-c5210abd82f3.PNG)
+![alt text](https://user-images.githubusercontent.com/20173643/47400990-c1416500-d73f-11e8-861a-6c7660581a35.PNG)
 
 
 
