@@ -6,7 +6,7 @@ https://datsoftlyngby.github.io/soft2018fall/UFO/03-Prototyping_and_Evaluation.h
 
 # The task
 
-There are tre digital ocean droplets that are all set up to respond to ping:
+There are three digital ocean droplets that are all set up to respond to ping, which are given by the task:
 - 128.199.144.199
 - 167.99.51.33
 - 46.101.253.149
@@ -26,6 +26,107 @@ In particluar you have to:
 
 # Behavior of ping times of these three servers
 
+The response time is depend on distance between server and request point (client). According to this relativity, with longer distance, respons time would increase.
+
+# Expriment has done through the following approach: 
+
+Response time and distance to server has been measured in a paticular location. Experiment has reapetet in another particular location. Comparing the distances to several servers and also compare the data which are provided from to particular location, shows the response time clearly.
+
+```sh
+
+GERMANY- Gentofte
+
+
+Pinging 46.101.253.149 with 32 bytes of data:
+Reply from 46.101.253.149: bytes=32 time=17ms TTL=51
+Reply from 46.101.253.149: bytes=32 time=20ms TTL=51
+Reply from 46.101.253.149: bytes=32 time=20ms TTL=51
+Reply from 46.101.253.149: bytes=32 time=20ms TTL=51
+
+Ping statistics for 46.101.253.149:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 17ms, Maximum = 20ms, Average = 19ms
+    
+USA- Gentofte
+
+
+Pinging 167.99.51.33 with 32 bytes of data:
+Reply from 167.99.51.33: bytes=32 time=109ms TTL=52
+Reply from 167.99.51.33: bytes=32 time=125ms TTL=52
+Reply from 167.99.51.33: bytes=32 time=95ms TTL=52
+Reply from 167.99.51.33: bytes=32 time=98ms TTL=52
+
+Ping statistics for 167.99.51.33:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 95ms, Maximum = 125ms, Average = 106ms
+    
+
+
+Singapore- Gentofte
+
+
+Pinging 128.199.144.199 with 32 bytes of data:
+Reply from 128.199.144.199: bytes=32 time=268ms TTL=45
+Reply from 128.199.144.199: bytes=32 time=269ms TTL=45
+Reply from 128.199.144.199: bytes=32 time=268ms TTL=45
+Reply from 128.199.144.199: bytes=32 time=268ms TTL=45
+
+Ping statistics for 128.199.144.199:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 268ms, Maximum = 269ms, Average = 268ms
+
+```
+
+```sh
+GERMANY- Lyngby
+
+
+Pinging 46.101.253.149 with 32 bytes of data:
+Reply from 46.101.253.149: bytes=32 time=17ms TTL=51
+Reply from 46.101.253.149: bytes=32 time=17ms TTL=51
+Reply from 46.101.253.149: bytes=32 time=17ms TTL=51
+Reply from 46.101.253.149: bytes=32 time=20ms TTL=51
+
+Ping statistics for 46.101.253.149:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 17ms, Maximum = 20ms, Average = 17ms
+    
+USA- Lyngby
+
+
+Pinging 167.99.51.33 with 32 bytes of data:
+Reply from 167.99.51.33: bytes=32 time=108ms TTL=53
+Reply from 167.99.51.33: bytes=32 time=109ms TTL=53
+Reply from 167.99.51.33: bytes=32 time=109ms TTL=53
+Reply from 167.99.51.33: bytes=32 time=109ms TTL=53
+
+Ping statistics for 167.99.51.33:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 108ms, Maximum = 109ms, Average = 108ms
+
+
+
+Singapore- Lyngby
+
+
+Pinging 128.199.144.199 with 32 bytes of data:
+Reply from 128.199.144.199: bytes=32 time=348ms TTL=42
+Reply from 128.199.144.199: bytes=32 time=348ms TTL=42
+Reply from 128.199.144.199: bytes=32 time=348ms TTL=42
+Reply from 128.199.144.199: bytes=32 time=345ms TTL=42
+
+Ping statistics for 128.199.144.199:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 345ms, Maximum = 348ms, Average = 347ms
+ ```   
+    
+    
 - ping 128.199.144.199 >> singaphour.txt
 - ping 46.101.253.149 >> germany.txt
 - ping 167.99.51.33 >> usa.txt
